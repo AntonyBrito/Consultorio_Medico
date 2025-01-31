@@ -1,0 +1,21 @@
+.principal {
+    /*
+    background-image: url("assets/fotoMedico.jpg"); 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+    padding: 80px 40px;
+    */
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
