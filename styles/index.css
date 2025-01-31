@@ -1,21 +1,61 @@
-.principal {
-    /*
-    background-image: url("assets/fotoMedico.jpg"); 
+.principal {  
+    background-image: url("../assets/nuvens.jpg"); 
     background-repeat: no-repeat; 
     background-position: center center;
     background-size: cover;
     background-attachment: fixed; 
-    padding: 80px 40px;
-    */
     display: flex;
     justify-content: center;
-    padding: 2rem;
-    font-size: 2rem;
+    padding: 12rem;
+}
+
+.principal h1 {
+    text-align: center;
+    font-family: Arial;
+    font-size: 4rem;
+    color: white;
+    /*-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;*/ 
 }
 
 .descricao {
+    margin: 3rem 1rem 0 1rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
+.descricao img {
+    width: 500px;
+    height: 500px;
+}
+
+.descricaoAlign {
+    display: flex;
+    justify-content: center;
+}
+
+.descricaoFlex {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.descricaoUlContent {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    color: rgba(0, 21, 37, 0.75);
+}
+
+.descricaoFlex h2 {
+    color: rgba(21, 104, 172, 0.75);
+}
+
+.descricaoFlex h3 {
+    color: rgba(21, 104, 172, 0.75);
+}
+
+.descricaoFlex p {
+    margin-top: 0.2rem;
+}
